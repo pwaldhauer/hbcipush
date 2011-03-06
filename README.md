@@ -18,15 +18,15 @@ Falls das jemandem zu unsicher ist: Es ist Open-Source, macht es ruhig sicherer.
 1. Ein Verzeichnis `passports/` erstellen.
 2. Installieren. Bei diesem Vorgang wird zunächst eine konto.db erstellt (die SQLite-Datenbank) und dann eine entsprechende Datei im `passports/`-Verzeichnis, wo die Kontodaten gespeichert sind.
 
-   java -jar HbciPush.jar --install
+   `java -jar HbciPush.jar --install`
     
 3. Die vorher vergebene Passphrase und die Konto-PIN  in die hbci.properties schreiben, etwa so:
 
-    pin=123123
-    passphrase=kontodatenpassphrase123
+    `pin=123123
+    passphrase=kontodatenpassphrase123`
 
 4. Ausführen: 
 
-    java -jar HbciPush.jar
+    `java -jar HbciPush.jar`
 
 5. Sich ein Script schreiben, was die SQLite-Datenbank ausliest und die Daten verwertet.
