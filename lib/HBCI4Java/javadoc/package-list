@@ -1,0 +1,10 @@
+org.kapott.hbci.GV
+org.kapott.hbci.GV_Result
+org.kapott.hbci.callback
+org.kapott.hbci.exceptions
+org.kapott.hbci.manager
+org.kapott.hbci.passport
+org.kapott.hbci.status
+org.kapott.hbci.structures
+org.kapott.hbci.swift
+org.kapott.hbci.tools
