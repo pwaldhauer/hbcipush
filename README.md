@@ -16,14 +16,15 @@ Falls das jemandem zu unsicher ist: Es ist Open-Source, macht es ruhig sicherer.
 ## 2. Installation
 
 1. Ein Verzeichnis `passports/` erstellen.
-2. Installieren. Bei diesem Vorgang wird zunächst eine konto.db erstellt (die SQLite-Datenbank) und dann eine entsprechende Datei im `passports/`-Verzeichnis, wo die Kontodaten gespeichert sind.
+2. Folgendes ausführen und den Anweisungen folgen. Bei diesem Vorgang wird zunächst eine konto.db erstellt (die SQLite-Datenbank) und dann eine entsprechende Datei im `passports/`-Verzeichnis, wo die Kontodaten gespeichert sind.
 
    `java -jar HbciPush.jar --install`
     
 3. Die vorher vergebene Passphrase und die Konto-PIN  in die hbci.properties schreiben, etwa so:
 
-    `pin=123123
-    passphrase=kontodatenpassphrase123`
+    `pin=123123`
+    
+    `passphrase=kontodatenpassphrase123`
 
 4. Ausführen: 
 
